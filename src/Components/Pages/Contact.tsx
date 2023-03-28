@@ -368,10 +368,10 @@ const ContactForm = styled.form`
   &::after {
     content: "";
     position: absolute;
-    bottom: -52px;
+    bottom: -47px;
     right: 138px;
-    width: 280px;
-    height: 245px;
+    width: 241px;
+    height: 204px;
     background-image: url(images/arrow-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
