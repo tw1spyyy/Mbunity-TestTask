@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+# Mbunity Development - React Front-End Technical Assessment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Стек технологій які я використав:
 
-## Available Scripts
+    * typescript
 
-In the project directory, you can run:
+    * react-router-dom
+    * styled-components
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This is a Mbunity Development technical assessment for potential React Frontend Engineer.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The purpose of this exercise is to assess your:
 
-### `npm test`
+- React.js knowledge
+- Figma knowledge
+- Code quality
+- Thinking process
+- Using various technologies
+- The ability to make your own decisions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+When you are ready to submit your assessment, please email the team to let us know: `recruitment@mbunity.com`.
 
-### `npm run build`
+## Technologies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Please implement your solution in your preferred techologies from the below:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- GitLab or GitHub
+- Heroku or Vercel
+- React.JS 16.10.0+
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deliverables
 
-### `npm run eject`
+1. Instructions to run the code.
+2. Comments throughout the code that highlights your thinking process.
+3. Upload it to the private GitHub repository and ask the recruiter about next steps.
+4. You should upload your React app to Vercel or to Heroku and provide us with a link.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Task
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Build page according Figma file using React.**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Good luck
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+And don't forget to notify the Recruiter once you're done!
