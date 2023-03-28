@@ -13,13 +13,16 @@ const RadioOptions = [
 ];
 
 export const Contact = () => {
+  // It is state for form
   const [radioValue, setRadioValue] = useState("General Inquiry2");
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  //
 
+  // it is state for open modal after submit
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const onFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {

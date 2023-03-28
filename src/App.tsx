@@ -18,6 +18,7 @@ export const App = () => {
       <Header />
       <Content>
         <Routes>
+          {/* using react-router-dom for transition between pages */}
           <Route path="/contact" element={<Contact />} />
           <Route path="/" element={<Home />} />
           <Route path="/features1" element={<Feautures2 />} />

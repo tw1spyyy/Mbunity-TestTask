@@ -5,6 +5,7 @@ interface Props {
   text?: string;
 }
 
+// UI component Button
 export const Button = ({ text }: Props) => {
   return <Wrapper type="submit">{text}</Wrapper>;
 };

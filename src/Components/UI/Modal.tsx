@@ -7,17 +7,13 @@ interface Props {
   onClose: () => void;
 }
 
+// UI component Modal (using it after submit form in contact page)
 export const Modal = (props: Props) => {
   const { children, isOpen, onClose } = props;
 
   const handleClose = () => {
-    // document.body.style.overflow = hidden ? "hidden" : "auto";
-
     onClose();
   };
-  //   if (!hidden) {
-  //     document.body.style.overflow = isOpen ? "hidden" : "none";
-  //   }
 
   return (
     <>

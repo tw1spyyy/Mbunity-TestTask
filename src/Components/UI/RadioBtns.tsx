@@ -12,6 +12,7 @@ interface Props {
   setValue: React.Dispatch<React.SetStateAction<string>>;
 }
 
+// UI component RadioBtns
 export const RadioBtns = ({ options, name, value, setValue }: Props) => {
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setValue(e.target.value);

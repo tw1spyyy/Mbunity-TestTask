@@ -4,19 +4,27 @@ import { useClickOutside } from "../hooks/useClickOutsideMenu";
 import { Link, useNavigate } from "react-router-dom";
 
 export const Header = () => {
+  // state for dropDown menu
   const [isOpen, setIsOpen] = useState(false);
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const toggleDropdown = () => setIsOpen(!isOpen);
 
+  // state for menu in mobile version
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // using navigate to move between pages
   const navigate = useNavigate();
 
+  // using this code for dropDown menu (closing it if we click outside menu)
   const onClickOutsideMenu = () => {
     setIsOpen(false);
-    console.log("beeb");
   };
+
   const ref = useRef<any>();
 
   useClickOutside(ref, onClickOutsideMenu);
+
+  const toggleDropdown = () => setIsOpen(!isOpen);
+  //
+
   return (
     <WrapperHeader>
       <HeaderLogo isMenuOpen={isMenuOpen} onClick={() => navigate("/")}>

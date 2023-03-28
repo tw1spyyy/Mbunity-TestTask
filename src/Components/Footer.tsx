@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 export const Footer = () => {
+  // state for email
   const [email, setEmail] = React.useState("");
 
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {

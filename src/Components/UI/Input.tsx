@@ -10,6 +10,7 @@ interface Props {
   onChange?: any;
 }
 
+// UI component Input
 export const Input = ({
   labelValue,
   inputType = "default",
